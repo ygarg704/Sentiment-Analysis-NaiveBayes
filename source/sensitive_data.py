@@ -1,7 +1,7 @@
 import re
 import csv
 
-fh = open("source\dataset.csv", "r")
+fh = open("source/dataset.csv", "r")
 
 # The delimiter in the csv file is '+' instead of comma. This was done to compromise with the commas in the sentence
 # in the sentence of the dataset used.
